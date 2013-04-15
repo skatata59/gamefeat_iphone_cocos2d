@@ -72,11 +72,22 @@
 -(void) applicationDidEnterBackground:(UIApplication*)application
 {
     [_director stopAnimation];
+    // アプリがバックグランド実行へ遷移した際にコンバージョン定期送信を実行します。
+    UIDevice *device = [UIDevice currentDevice];
+    BOOL backgroundSupported = NO;
+    if ([device respondsToSelector:@selector(isMultitaskingSupported)]) {
+        backgroundSupported = device.multitaskingSupported;
+    }
+    if (backgroundSupported) {
+        [GFController backgroundTask];
+    }
+
 }
 
 -(void) applicationWillEnterForeground:(UIApplication*)application
 {
     [_director startAnimation];
+    [GFController conversionCheckStop];
 }
 
 // application will be killed
