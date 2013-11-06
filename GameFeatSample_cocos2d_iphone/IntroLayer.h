@@ -8,10 +8,13 @@
 
 #import "cocos2d.h"
 #import "AppDelegate.h"
+#import <GameFeatKit/GFIconController.h>
+#import <GameFeatKit/GFIconView.h>
 
 // HelloWorldLayer
 @interface IntroLayer : CCLayer
 {
+    GFIconController *gfIconController;
 }
 +(CCScene *) scene;
 

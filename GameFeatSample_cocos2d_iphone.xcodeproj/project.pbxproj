@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E914921829F8CE007C656F /* GameFeatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E914911829F8CE007C656F /* GameFeatKit.framework */; };
+		22E914981829F8D5007C656F /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 22E914941829F8D5007C656F /* CHANGELOG.md */; };
+		22E914991829F8D5007C656F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E914961829F8D5007C656F /* JSONKit.m */; };
+		22E9149A1829F8D5007C656F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 22E914971829F8D5007C656F /* README.md */; };
+		22E914B11829F8E7007C656F /* gamefeat_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9149C1829F8E7007C656F /* gamefeat_banner.png */; };
+		22E914B21829F8E7007C656F /* gamefeat_bg_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9149D1829F8E7007C656F /* gamefeat_bg_loading.png */; };
+		22E914B31829F8E7007C656F /* gamefeat_btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9149E1829F8E7007C656F /* gamefeat_btn_back.png */; };
+		22E914B41829F8E7007C656F /* gamefeat_btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E9149F1829F8E7007C656F /* gamefeat_btn_cancel.png */; };
+		22E914B51829F8E7007C656F /* gamefeat_btn_download.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A01829F8E7007C656F /* gamefeat_btn_download.png */; };
+		22E914B61829F8E7007C656F /* gamefeat_btn_review.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A11829F8E7007C656F /* gamefeat_btn_review.png */; };
+		22E914B71829F8E7007C656F /* gamefeat_btn_update.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A21829F8E7007C656F /* gamefeat_btn_update.png */; };
+		22E914B81829F8E7007C656F /* gamefeat_error.html in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A31829F8E7007C656F /* gamefeat_error.html */; };
+		22E914B91829F8E7007C656F /* gamefeat_icon_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A41829F8E7007C656F /* gamefeat_icon_error.png */; };
+		22E914BA1829F8E7007C656F /* gamefeat_overlay.html in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A51829F8E7007C656F /* gamefeat_overlay.html */; };
+		22E914BB1829F8E7007C656F /* gamefeat_overlay_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A61829F8E7007C656F /* gamefeat_overlay_close.png */; };
+		22E914BC1829F8E7007C656F /* gamefeat_overlay_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A71829F8E7007C656F /* gamefeat_overlay_l.png */; };
+		22E914BD1829F8E7007C656F /* gamefeat_overlay_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A81829F8E7007C656F /* gamefeat_overlay_p.png */; };
+		22E914BE1829F8E7007C656F /* gamefeat_popup_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914A91829F8E7007C656F /* gamefeat_popup_bg.png */; };
+		22E914BF1829F8E7007C656F /* gamefeat_popup_bg_land.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914AA1829F8E7007C656F /* gamefeat_popup_bg_land.png */; };
+		22E914C01829F8E7007C656F /* gamefeat_popup_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914AB1829F8E7007C656F /* gamefeat_popup_close.png */; };
+		22E914C11829F8E7007C656F /* gamefeat_popup_close_land.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914AC1829F8E7007C656F /* gamefeat_popup_close_land.png */; };
+		22E914C21829F8E7007C656F /* gamefeat_popup_dl.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914AD1829F8E7007C656F /* gamefeat_popup_dl.png */; };
+		22E914C31829F8E7007C656F /* gamefeat_popup_dl_land.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914AE1829F8E7007C656F /* gamefeat_popup_dl_land.png */; };
+		22E914C41829F8E7007C656F /* gamefeat_rect_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914AF1829F8E7007C656F /* gamefeat_rect_banner.png */; };
+		22E914C51829F8E7007C656F /* gamefeat_style.css in Resources */ = {isa = PBXBuildFile; fileRef = 22E914B01829F8E7007C656F /* gamefeat_style.css */; };
+		22E914C8182A07E4007C656F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914C6182A07E4007C656F /* icon.png */; };
+		22E914C9182A07E4007C656F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E914C7182A07E4007C656F /* icon@2x.png */; };
 		7708D85D17140A2600D497A0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7708D85C17140A2600D497A0 /* OpenGLES.framework */; };
 		7708D86517140A2600D497A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7708D86417140A2600D497A0 /* UIKit.framework */; };
 		7708D86717140A2600D497A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7708D86617140A2600D497A0 /* Foundation.framework */; };
@@ -130,6 +157,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22E914911829F8CE007C656F /* GameFeatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameFeatKit.framework; path = ../../../Downloads/GameFeatSDK_iOS_v2.1.1/GameFeatKit.framework; sourceTree = "<group>"; };
+		22E914941829F8D5007C656F /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		22E914951829F8D5007C656F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		22E914961829F8D5007C656F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		22E914971829F8D5007C656F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		22E9149C1829F8E7007C656F /* gamefeat_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_banner.png; sourceTree = "<group>"; };
+		22E9149D1829F8E7007C656F /* gamefeat_bg_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_bg_loading.png; sourceTree = "<group>"; };
+		22E9149E1829F8E7007C656F /* gamefeat_btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_back.png; sourceTree = "<group>"; };
+		22E9149F1829F8E7007C656F /* gamefeat_btn_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_cancel.png; sourceTree = "<group>"; };
+		22E914A01829F8E7007C656F /* gamefeat_btn_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_download.png; sourceTree = "<group>"; };
+		22E914A11829F8E7007C656F /* gamefeat_btn_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_review.png; sourceTree = "<group>"; };
+		22E914A21829F8E7007C656F /* gamefeat_btn_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_btn_update.png; sourceTree = "<group>"; };
+		22E914A31829F8E7007C656F /* gamefeat_error.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gamefeat_error.html; sourceTree = "<group>"; };
+		22E914A41829F8E7007C656F /* gamefeat_icon_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_icon_error.png; sourceTree = "<group>"; };
+		22E914A51829F8E7007C656F /* gamefeat_overlay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gamefeat_overlay.html; sourceTree = "<group>"; };
+		22E914A61829F8E7007C656F /* gamefeat_overlay_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_overlay_close.png; sourceTree = "<group>"; };
+		22E914A71829F8E7007C656F /* gamefeat_overlay_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_overlay_l.png; sourceTree = "<group>"; };
+		22E914A81829F8E7007C656F /* gamefeat_overlay_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_overlay_p.png; sourceTree = "<group>"; };
+		22E914A91829F8E7007C656F /* gamefeat_popup_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_bg.png; sourceTree = "<group>"; };
+		22E914AA1829F8E7007C656F /* gamefeat_popup_bg_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_bg_land.png; sourceTree = "<group>"; };
+		22E914AB1829F8E7007C656F /* gamefeat_popup_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_close.png; sourceTree = "<group>"; };
+		22E914AC1829F8E7007C656F /* gamefeat_popup_close_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_close_land.png; sourceTree = "<group>"; };
+		22E914AD1829F8E7007C656F /* gamefeat_popup_dl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_dl.png; sourceTree = "<group>"; };
+		22E914AE1829F8E7007C656F /* gamefeat_popup_dl_land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_popup_dl_land.png; sourceTree = "<group>"; };
+		22E914AF1829F8E7007C656F /* gamefeat_rect_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamefeat_rect_banner.png; sourceTree = "<group>"; };
+		22E914B01829F8E7007C656F /* gamefeat_style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = gamefeat_style.css; sourceTree = "<group>"; };
+		22E914C6182A07E4007C656F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../gamefeat_iphone_cocos2d-master_icon/icon.png"; sourceTree = "<group>"; };
+		22E914C7182A07E4007C656F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../gamefeat_iphone_cocos2d-master_icon/icon@2x.png"; sourceTree = "<group>"; };
 		7708D85617140A2600D497A0 /* GameFeatSample_cocos2d_iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameFeatSample_cocos2d_iphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7708D85A17140A2600D497A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7708D85C17140A2600D497A0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -396,6 +451,7 @@
 				771A944917141488003C1CD6 /* AudioToolbox.framework in Frameworks */,
 				771A94481714145D003C1CD6 /* QuartzCore.framework in Frameworks */,
 				771A944717141457003C1CD6 /* AVFoundation.framework in Frameworks */,
+				22E914921829F8CE007C656F /* GameFeatKit.framework in Frameworks */,
 				771A94421714140F003C1CD6 /* CoreTelephony.framework in Frameworks */,
 				771A9440171413FD003C1CD6 /* StoreKit.framework in Frameworks */,
 				7708D85D17140A2600D497A0 /* OpenGLES.framework in Frameworks */,
@@ -408,6 +464,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22E914931829F8D5007C656F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				22E914941829F8D5007C656F /* CHANGELOG.md */,
+				22E914951829F8D5007C656F /* JSONKit.h */,
+				22E914961829F8D5007C656F /* JSONKit.m */,
+				22E914971829F8D5007C656F /* README.md */,
+			);
+			name = JSONKit;
+			path = ../../../Downloads/GameFeatSDK_iOS_v2.1.1/JSONKit;
+			sourceTree = "<group>";
+		};
+		22E9149B1829F8E7007C656F /* gamefeat */ = {
+			isa = PBXGroup;
+			children = (
+				22E9149C1829F8E7007C656F /* gamefeat_banner.png */,
+				22E9149D1829F8E7007C656F /* gamefeat_bg_loading.png */,
+				22E9149E1829F8E7007C656F /* gamefeat_btn_back.png */,
+				22E9149F1829F8E7007C656F /* gamefeat_btn_cancel.png */,
+				22E914A01829F8E7007C656F /* gamefeat_btn_download.png */,
+				22E914A11829F8E7007C656F /* gamefeat_btn_review.png */,
+				22E914A21829F8E7007C656F /* gamefeat_btn_update.png */,
+				22E914A31829F8E7007C656F /* gamefeat_error.html */,
+				22E914A41829F8E7007C656F /* gamefeat_icon_error.png */,
+				22E914A51829F8E7007C656F /* gamefeat_overlay.html */,
+				22E914A61829F8E7007C656F /* gamefeat_overlay_close.png */,
+				22E914A71829F8E7007C656F /* gamefeat_overlay_l.png */,
+				22E914A81829F8E7007C656F /* gamefeat_overlay_p.png */,
+				22E914A91829F8E7007C656F /* gamefeat_popup_bg.png */,
+				22E914AA1829F8E7007C656F /* gamefeat_popup_bg_land.png */,
+				22E914AB1829F8E7007C656F /* gamefeat_popup_close.png */,
+				22E914AC1829F8E7007C656F /* gamefeat_popup_close_land.png */,
+				22E914AD1829F8E7007C656F /* gamefeat_popup_dl.png */,
+				22E914AE1829F8E7007C656F /* gamefeat_popup_dl_land.png */,
+				22E914AF1829F8E7007C656F /* gamefeat_rect_banner.png */,
+				22E914B01829F8E7007C656F /* gamefeat_style.css */,
+			);
+			name = gamefeat;
+			path = ../../../../Downloads/GameFeatSDK_iOS_v2.1.1/gamefeat;
+			sourceTree = "<group>";
+		};
 		7708D84B17140A2600D497A0 = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +525,8 @@
 		7708D85917140A2600D497A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22E914931829F8D5007C656F /* JSONKit */,
+				22E914911829F8CE007C656F /* GameFeatKit.framework */,
 				771A94411714140F003C1CD6 /* CoreTelephony.framework */,
 				771A943F171413FD003C1CD6 /* StoreKit.framework */,
 				7708D85A17140A2600D497A0 /* QuartzCore.framework */,
@@ -459,6 +558,9 @@
 		7708D86D17140A2600D497A0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				22E914C6182A07E4007C656F /* icon.png */,
+				22E914C7182A07E4007C656F /* icon@2x.png */,
+				22E9149B1829F8E7007C656F /* gamefeat */,
 				7708D9FC17140AF700D497A0 /* Default-568h@2x.png */,
 				7708D9FD17140AF700D497A0 /* Default.png */,
 				7708D9FE17140AF700D497A0 /* Default@2x.png */,
@@ -863,12 +965,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E914BF1829F8E7007C656F /* gamefeat_popup_bg_land.png in Resources */,
 				7708D88617140A2600D497A0 /* iTunesArtwork in Resources */,
+				22E914C21829F8E7007C656F /* gamefeat_popup_dl.png in Resources */,
+				22E914BB1829F8E7007C656F /* gamefeat_overlay_close.png in Resources */,
+				22E914BA1829F8E7007C656F /* gamefeat_overlay.html in Resources */,
+				22E914B31829F8E7007C656F /* gamefeat_btn_back.png in Resources */,
+				22E914B11829F8E7007C656F /* gamefeat_banner.png in Resources */,
+				22E914C31829F8E7007C656F /* gamefeat_popup_dl_land.png in Resources */,
+				22E914C8182A07E4007C656F /* icon.png in Resources */,
 				7708D9C417140A2900D497A0 /* ChangeLog in Resources */,
 				7708D9FA17140AE400D497A0 /* icon.png in Resources */,
+				22E914B61829F8E7007C656F /* gamefeat_btn_review.png in Resources */,
+				22E914B81829F8E7007C656F /* gamefeat_error.html in Resources */,
+				22E914BD1829F8E7007C656F /* gamefeat_overlay_p.png in Resources */,
+				22E914B91829F8E7007C656F /* gamefeat_icon_error.png in Resources */,
+				22E914C01829F8E7007C656F /* gamefeat_popup_close.png in Resources */,
+				22E914BE1829F8E7007C656F /* gamefeat_popup_bg.png in Resources */,
+				22E914C9182A07E4007C656F /* icon@2x.png in Resources */,
+				22E914981829F8D5007C656F /* CHANGELOG.md in Resources */,
 				7708D9FB17140AE400D497A0 /* icon@2x.png in Resources */,
+				22E914BC1829F8E7007C656F /* gamefeat_overlay_l.png in Resources */,
+				22E914B41829F8E7007C656F /* gamefeat_btn_cancel.png in Resources */,
+				22E914C11829F8E7007C656F /* gamefeat_popup_close_land.png in Resources */,
+				22E914B71829F8E7007C656F /* gamefeat_btn_update.png in Resources */,
+				22E914B21829F8E7007C656F /* gamefeat_bg_loading.png in Resources */,
+				22E914C51829F8E7007C656F /* gamefeat_style.css in Resources */,
 				7708D9FF17140AF700D497A0 /* Default-568h@2x.png in Resources */,
+				22E914C41829F8E7007C656F /* gamefeat_rect_banner.png in Resources */,
+				22E9149A1829F8D5007C656F /* README.md in Resources */,
 				7708DA0017140AF700D497A0 /* Default.png in Resources */,
+				22E914B51829F8E7007C656F /* gamefeat_btn_download.png in Resources */,
 				7708DA0117140AF700D497A0 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -886,6 +1013,7 @@
 				7708D89417140A2700D497A0 /* CCActionEase.m in Sources */,
 				7708D89717140A2700D497A0 /* CCActionGrid.m in Sources */,
 				7708D89A17140A2700D497A0 /* CCActionGrid3D.m in Sources */,
+				22E914991829F8D5007C656F /* JSONKit.m in Sources */,
 				7708D89D17140A2700D497A0 /* CCActionInstant.m in Sources */,
 				7708D8A017140A2700D497A0 /* CCActionInterval.m in Sources */,
 				7708D8A317140A2700D497A0 /* CCActionManager.m in Sources */,
@@ -1036,7 +1164,8 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/GameFeatSDK_iOS_V1.0.1\"",
+					"\\\"$(SRCROOT)/GameFeatSDK_iOS_V1.0.1\\\"",
+					/Users/kkyouhei/Downloads/GameFeatSDK_iOS_v2.1.1,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1060,7 +1189,8 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/GameFeatSDK_iOS_V1.0.1\"",
+					"\\\"$(SRCROOT)/GameFeatSDK_iOS_V1.0.1\\\"",
+					/Users/kkyouhei/Downloads/GameFeatSDK_iOS_v2.1.1,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GameFeatSample_cocos2d_iphone/Prefix.pch;
