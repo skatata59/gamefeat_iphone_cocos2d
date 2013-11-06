@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
 
+#import <GameFeatKit/GFPopupView.h>
 #import <GameFeatKit/GFView.h>
 #import <GameFeatKit/GFController.h>
 
